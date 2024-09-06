@@ -1,0 +1,124 @@
+body {
+  background-color: rgba(10, 10, 35, .8);
+}
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+}
+
+.hide {
+  display:none;
+}
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+ /* background-image: linear-gradient(#fecc4c, #ffac33);*/
+  border: 3px solid #feac32;
+}
+
+#overlay-start {
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+#overlay-start-msg {
+  background-color: rgba(10, 10, 35, .5);
+  border-radius: 10px;;
+  margin-top: 18rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:#e2fa07;
+}
+
+
+#overlay-content {
+  width: 80%;
+  height: 100vh;
+  background-color: rgba(10, 10, 35, .3), 80%;
+  background-image: url('dragon-2.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  outline:2px solid white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color:white;
+  text-align: center;
+}
+/*.overlay-img {
+  background-color: rgba(10, 10, 35, .3);
+  background-image: url('dragon-2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+#overlay-start-btn {
+  cursor: pointer;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(10, 10, 35, .3);
+  border-radius:5px;
+  border-width: 3px;
+  font-size: 2rem;
+}
+.overlay-btn-style {
+  cursor: pointer;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(10, 10, 35, .3);
+  border-radius:5px;
+  border-width: 3px;
+  font-size: 2rem;
+  color:#e2fa07;
+}
+
+#overlay-start-btn:hover {
+  background-color: #e2fa07;
+  outline: 3px solid white;
+  color:white;
+}
+
+
+
+
+
+
